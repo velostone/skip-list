@@ -19,7 +19,7 @@ public:
 		next = nullptr;
 		down = nullptr;
 	}
-	template<typename T>
+	template<T>
 	friend class SkipList;
 };
 
